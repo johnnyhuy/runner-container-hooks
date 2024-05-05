@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: runner-container-hooks
+  title: Runner Container Hooks
+  description: Runner GitHub Actions container hooks
+  tags:
+    - github-actions
+    - ci-cd
+spec:
+  type: library
+  lifecycle: production
+  owner: johnnyhuy
